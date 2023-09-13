@@ -3,16 +3,16 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test_Scripts.SampleTest">
+      <class name="test_Scripts.TC_OFOS_003">
         <methods>
           <include name="setup"/>
+          <include name="YorkshireOrdingFood" invocation-numbers="0"/>
           <include name="beforeSuit"/>
-          <include name="afterSuite"/>
           <include name="CloseApp"/>
+          <include name="afterSuite"/>
           <include name="browserSetup"/>
-          <include name="sample"/>
         </methods>
-      </class> <!-- test_Scripts.SampleTest -->
+      </class> <!-- test_Scripts.TC_OFOS_003 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

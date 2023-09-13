@@ -46,7 +46,7 @@ public class ReadExcel implements FrameworkConstants{
 		for(int r=0;r<=row_count-1;r++) {
 			Row row=sheet.getRow(r);
 			for(int c=0;c<row.getLastCellNum();c++) {
-				data[r][c]=row.getCell(c).getStringCellValue();
+				data[r][c]=row.getCell(c).getStringCellValue().toString();
 			}
 		}
 		book.close();
